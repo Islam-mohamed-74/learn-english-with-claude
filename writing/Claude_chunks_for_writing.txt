@@ -1,0 +1,119 @@
+# Claude chunks for writing
+# One chunk per line:  English|Arabic
+# A line that starts with ## is a section name.
+# To add chunks: add lines here, then run  python tools/build_deck.py  and import the .apkg file in Anki.
+
+## Linking: reason
+I stopped the server because you need the port.|وقّفت السيرفر عشان إنت محتاج البورت.
+I can't test it because the backend is down.|مش قادر أجرّبه عشان الباك إند واقع.
+Since the backend is not ready, we will wait.|بما إن الباك إند مش جاهز، هنستنى.
+Since you already reviewed it, I will commit.|بما إنك راجعته خلاص، هعمل كوميت.
+The page is slow, so I need to check the bundle.|الصفحة بطيئة، فمحتاج أراجع الـ bundle.
+I don't understand this part, so explain it again.|مش فاهم الجزء ده، فاشرحه تاني.
+The backend changed the field. That's why the page is empty.|الباك إند غيّر الحقل. عشان كده الصفحة فاضية.
+I was busy. That's why I didn't answer.|كنت مشغول. عشان كده ماردّتش.
+The build failed because of one type error.|البيلد فشل بسبب خطأ type واحد.
+We are late because of the backend.|إحنا متأخرين بسبب الباك إند.
+The delay is due to the internet.|التأخير سببه النت.
+
+## Linking: contrast
+It works, but it is very slow.|شغّال، بس بطيء جدًا.
+Although it works, I don't like the design.|مع إنه شغّال، التصميم مش عاجبني.
+Although I tested it, I am still not sure.|مع إني جرّبته، لسه مش متأكد.
+Even though the test passed, the page looks wrong.|مع إن الاختبار نجح، الصفحة شكلها غلط.
+Even though I am tired, I want to finish today.|مع إني تعبان، عايز أخلّص النهارده.
+The admin is done. However, the user side is not.|الأدمن خلص. لكن ناحية اليوزر لسه.
+I agree with the plan. However, I have one question.|أنا موافق على الخطة. لكن عندي سؤال واحد.
+The admin uses tables, while the user side uses cards.|الأدمن بيستخدم جداول، أما ناحية اليوزر بتستخدم كروت.
+Don't create a new file. Instead, edit the old one.|ماتعملش ملف جديد. بدل كده، عدّل القديم.
+I fixed it, but the error is still there.|صلّحته، بس الخطأ لسه موجود.
+The backend is ready. The frontend, on the other hand, needs two more days.|الباك إند جاهز. الفرونت إند من الناحية التانية محتاج يومين كمان.
+Despite the error, the page still loads.|رغم الخطأ، الصفحة لسه بتفتح.
+It works. It is slow, though.|شغّال. بس بطيء برضه.
+
+## Linking: condition
+If the test fails, tell me the reason.|لو الاختبار فشل، قولي السبب.
+If you are not sure, ask me first.|لو مش متأكد، اسألني الأول.
+Don't commit unless I tell you.|ماتعملش كوميت إلا لو قلتلك.
+It will not work unless the backend fixes it.|مش هيشتغل إلا لو الباك إند صلّحه.
+You can change it as long as the design stays the same.|تقدر تغيّره طول ما التصميم فاضل زي ما هو.
+As long as the tests pass, I am happy.|طول ما الاختبارات بتنجح، أنا مبسوط.
+Save a backup in case something goes wrong.|احفظ نسخة احتياطية تحسّبًا لو حاجة باظت.
+I will write it down in case I forget.|هكتبه عندي عشان لو نسيت.
+Run the tests first. Otherwise, we can't commit.|شغّل الاختبارات الأول. وإلا مش هنقدر نعمل كوميت.
+Tell me now. Otherwise, I will assume it is fine.|قولي دلوقتي. وإلا هفترض إنه تمام.
+Even if it takes two days, do it the right way.|حتى لو هياخد يومين، اعمله بالطريقة الصح.
+I want to know whether it works or not.|عايز أعرف هو شغّال ولا لأ.
+
+## Linking: time
+When the build finishes, send me the result.|لما البيلد يخلّص، ابعتلي النتيجة.
+While you review the code, I will test the page.|وإنت بتراجع الكود، أنا هجرّب الصفحة.
+Before you commit, show me the changes.|قبل ما تعمل كوميت، وريني التغييرات.
+After I review it, you can push.|بعد ما أراجعه، تقدر تعمل push.
+Don't push until I say so.|ماتعملش push لحد ما أقولك.
+Wait until the other agent finishes.|استنى لحد ما الـ agent التاني يخلّص.
+Tell me as soon as it is ready.|قولي أول ما يبقى جاهز.
+As soon as the backend is fixed, we will continue.|أول ما الباك إند يتصلّح، هنكمّل.
+Once the tests pass, merge it.|أول ما الاختبارات تنجح، اعمله ميرج.
+Once you understand this, the rest is easy.|أول ما تفهم ده، الباقي سهل.
+I have not tested it since the last update.|ماجرّبتوش من ساعة آخر تحديث.
+By the time you finish, I will be back.|على ما تخلّص، هكون رجعت.
+Meanwhile, I will update the report.|وفي الوقت ده، هحدّث التقرير.
+
+## Linking: result and purpose
+The spec changed. Therefore, we need to update the plan.|الـ spec اتغيّر. وبالتالي محتاجين نحدّث الخطة.
+The backend removed the field. As a result, the column is empty.|الباك إند شال الحقل. ونتيجة لكده العمود فاضي.
+I wrote a report so that the backend can fix it.|كتبت تقرير عشان الباك إند يقدر يصلّحه.
+Explain it simply so that I can understand.|اشرحه ببساطة عشان أقدر أفهم.
+In order to test it, I need an admin account.|عشان أجرّبه، محتاج حساب أدمن.
+The file is so big that I can't read it.|الملف كبير لدرجة إني مش قادر أقرأه.
+It was so slow that I closed the page.|كان بطيء لدرجة إني قفلت الصفحة.
+
+## Linking: adding
+Fix the bug and also update the report.|صلّح الـ bug وكمان حدّث التقرير.
+I also need the list of changed files.|أنا كمان محتاج قايمة الملفات اللي اتغيّرت.
+Check the user side too.|راجع ناحية اليوزر كمان.
+Update the documentation as well.|حدّث التوثيق كمان.
+In addition, I need a full report.|بالإضافة لكده، محتاج تقرير كامل.
+Besides, it is not our problem.|وبعدين دي مش مشكلتنا أصلًا.
+It is not only slow but also wrong.|ده مش بطيء بس، ده كمان غلط.
+I need the fix, plus a short explanation.|محتاج التصليح، وعليه شرح قصير.
+
+## Linking: order and examples
+First, check the backend. Then, fix the frontend.|أول حاجة، راجع الباك إند. وبعدين صلّح الفرونت إند.
+Finally, run the build and tell me the result.|وفي الآخر، شغّل البيلد وقولي النتيجة.
+Some pages are slow, for example the checkout page.|في صفحات بطيئة، مثلًا صفحة الدفع.
+I need simple words, such as "fix" and "check".|محتاج كلمات بسيطة، زي "fix" و "check".
+In short, the admin is done and the user side is not.|باختصار، الأدمن خلص وناحية اليوزر لسه.
+In other words, we can't start yet.|بمعنى تاني، مش هنقدر نبدأ لسه.
+Actually, I meant the other file.|في الحقيقة، أنا كنت أقصد الملف التاني.
+In fact, the problem is in the backend.|في الواقع، المشكلة في الباك إند.
+Anyway, let's move to the next step.|المهم، يلا ننتقل للخطوة الجاية.
+By the way, did you update the report?|على فكرة، إنت حدّثت التقرير؟
+
+## Linking: either, both, neither
+You can either fix it now or write it in the report.|يا إما تصلّحه دلوقتي يا إما تكتبه في التقرير.
+Both the admin and the user side are done.|الأدمن وناحية اليوزر الاتنين خلصوا.
+Neither the frontend nor the backend is ready.|لا الفرونت إند ولا الباك إند جاهز.
+
+## Requests
+Can you check this for me?|ممكن تشوفلي ده؟
+Can you look at this?|ممكن تبص على ده؟
+Can you explain this to me?|ممكن تشرحلي ده؟
+Can you explain it in a simple way?|ممكن تشرحه بطريقة بسيطة؟
+Can you give me an example?|ممكن تديني مثال؟
+Can you show me how?|ممكن تورّيني إزاي؟
+Can you fix this problem?|ممكن تصلّح المشكلة دي؟
+Can you help me with this?|ممكن تساعدني في ده؟
+Can you tell me what changed?|ممكن تقولي إيه اللي اتغيّر؟
+Can you tell me why it happens?|ممكن تقولي ليه ده بيحصل؟
+Can you create a plan?|ممكن تعمل خطة؟
+Can you write a report?|ممكن تكتب تقرير؟
+Can you update the report?|ممكن تحدّث التقرير؟
+Can you run the tests?|ممكن تشغّل الاختبارات؟
+Can you commit the changes?|ممكن تعمل كوميت للتغييرات؟
+Can you push it to main?|ممكن ترفعه على main؟
+Can you remove this?|ممكن تمسح ده؟
+Can you delete this file?|ممكن تمسح الملف ده؟
+Can you rename it?|ممكن تغيّر اسمه؟
+Can you add this?|ممكن تضيف ده؟

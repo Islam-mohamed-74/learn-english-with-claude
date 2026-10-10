@@ -1,0 +1,3 @@
+# Anki decks are built from the .txt files with the scripts in tools/
+*.apkg
+__pycache__/

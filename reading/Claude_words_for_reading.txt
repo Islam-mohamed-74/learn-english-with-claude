@@ -1,0 +1,26 @@
+# Claude words for reading
+# One word per line:  word|Arabic meaning|sentence|sentence in Arabic|memory hook
+# The words are in order: the ones Claude uses most come first.
+# To add words: add lines here, then run  python tools/build_reading_deck.py  and import the .apkg file in Anki.
+
+## Batch 1
+list|قايمة|Let me get the full list.|خليني أجيب القايمة كاملة.|"ليستة": تخيل ليستة بقالة طولها من هنا لآخر الشارع.
+row|صف (في جدول)|Clicking anywhere else in the row does nothing.|الضغط في أي حتة تانية في الصف مش بيعمل حاجة.|"رو": تخيل صف كراسي في السينما ومكتوب عليه بخط كبير ROW 5، والناس قاعدة جنب بعض بالعرض.
+refund|استرداد فلوس|A refund is requested, approved, then shown.|الاسترداد بيتطلب، وبيتوافق عليه، وبعدين بيظهر.|re (رجوع) + fund (فلوس): تخيل الفلوس طالعلها رجلين وراجعة تجري لجيبك.
+dialog|نافذة صغيرة بتظهر قدامك|If it needs re-verification, open the code dialog.|لو محتاج تأكيد تاني، افتح نافذة الكود.|"ديالوج" زي حوار الفيلم: تخيل شباك صغير بينط في وش الشاشة وعايز يتحاور معاك: "موافق ولا إلغاء؟"
+currency|عملة|The settlement currency can be switched off.|عملة التسوية ممكن تتقفل.|"كارنسي" ≈ "كارنيه": تخيل واحد بيدفع بالكارنيه بدل الفلوس والكاشير بيقوله: دي مش عملة!
+would|كنت هـ (كلام افتراضي)|I would keep this direction.|أنا لو مكانك كنت هفضل على الاتجاه ده.|"وُد" ≈ "ودّي": "ودّي أعمل كده" = كنت هعمل، بس لسه مش أكيد.
+option|اختيار|This is the easiest option.|ده أسهل اختيار.|"أوبشن" زي أوبشنات العربية: فتحة سقف، كاميرا... كل واحدة اختيار.
+these|دول (جمع، للقريب)|These are my estimates, not exact numbers.|دي تقديراتي، مش أرقام مظبوطة.|this لواحد و these لكتير: الـ ee الطويلة كأنها اتنين = أكتر من حاجة.
+column|عمود (في جدول)|The list has no column sorting.|القايمة مفيهاش ترتيب بالأعمدة.|"كولوم" ≈ "كُلّهم": تخيل عمود معبد فرعوني محفور عليه أسماء الطلبات كُلّهم فوق بعض بالطول.
+while|طول ما / في نفس الوقت اللي|Start with those while the backend fixes sessions.|ابدأ بدول طول ما الباك إند بيصلّح الـ sessions.|"وايل" ≈ "وأنا": "وأنا باكل بتفرج" = while I eat, I watch.
+should|المفروض|It should be a real link.|المفروض يبقى لينك حقيقي.|"شُد": تخيل أمك بتشد ودنك وتقول "المفروض تذاكر!"
+built|اتبنى (ماضي build)|The admin kit was built for tables.|الـ kit بتاع الأدمن اتبنى عشان الجداول.|build بالـ d = يبني، و built بالـ t = اتبنى خلاص. الـ t زي مسمار اتدق وخلص.
+price|سعر|Propose a price change after the deposit.|اقترح تغيير السعر بعد العربون.|"برايس" ≈ "برّه": تخيل البياع بيقول السعر وإنت بتطلع تجري برّه المحل.
+browser|متصفح|It should be open in your browser now.|المفروض يكون مفتوح في المتصفح عندك دلوقتي.|browse = يقلّب ويتفرج: تخيل كروم لابس نضارة وبيقلّب في رفوف مكتبة.
+description|وصف|It only needs its description moved onto the right parameter.|محتاج بس الوصف بتاعه يتنقل للـ parameter الصح.|describe = يوصف و description = الوصف: تخيل ظابط بيكتب وصف شكل الحرامي في محضر.
+query|طلب بيانات (سؤال للسيرفر)|Both endpoints declare a query now.|الاتنين endpoints بيعلنوا عن query دلوقتي.|"كويري" ≈ "كويس؟": تخيل الفرونت بيسأل السيرفر كل شوية "كويس؟ عندك إيه جديد؟"
+fraud|نصب / احتيال|This app handles money, refunds, and fraud flags.|الأبلكيشن ده بيتعامل مع فلوس واستردادات وعلامات احتيال.|"فرود" ≈ "فرد": تخيل نصّاب بيطلّع فرد لعبة مزيف عشان ياخد فلوسك.
+method|طريقة|The earlier fix remembers the new method's sort order.|التصليح اللي فات بيفتكر ترتيب الطريقة الجديدة.|"ميثود": تخيل مدرس بيقول "أنا ليا ميثود خاص في الشرح" = طريقة.
+resource|مورد (نوع بيانات في الـ API)|No new resources were added.|مفيش resources جديدة اتضافت.|re + source (مصدر): تخيل بير ميّة بترجعله كل ما تعطش = مصدر بترجعله.
+optional|اختياري|I skipped the optional commit step.|عدّيت خطوة الكوميت الاختيارية.|option (اختيار) + al: زي السؤال الاختياري في الامتحان، تحله أو تسيبه.
